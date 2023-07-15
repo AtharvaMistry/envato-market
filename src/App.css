@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.weasley{
+  font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+  margin-top: 55px;
+  background-color: lightgrey;
+  
+}
+.introduction{
+  padding-top: 155px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  border-bottom: 0.5px solid rgb(175, 175, 175);
+}
+@media only screen and (min-width:768px){
+  .weasley{
+    padding: 0px 125px;
+  }
+  .mainContainer{
+    padding: 20px 120px 0px 120px;
+  }
+  .education{
+    padding: 20px 125px 0px 125px;
+  }
+  .experience{
+    margin-right: 20px;
+  }
+  .cAndT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .serviceBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .portfolio{
+    display: flex;justify-content: space-between;
+    align-items: center;
+  }
+  
+}
